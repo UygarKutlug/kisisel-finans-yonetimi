@@ -41,13 +41,13 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-
-
-
-
-
-
-
 👤 Geliştirici
 
-Uygar Kutlug
+Uygar Kutluğ
+
+
+
+
+
+
+
