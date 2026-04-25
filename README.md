@@ -2,7 +2,7 @@
 
 Bu proje, gelir ve gider kayıtlarının tutulması, listelenmesi, analiz edilmesi ve grafiklerle görselleştirilmesi amacıyla geliştirilmiş bir kişisel finans yönetimi uygulamasıdır.
 
-Uygulama Python ve Streamlit kullanılarak hazırlanmıştır. Veriler SQLite veritabanında saklanır. Kullanıcı gelir ve gider kayıtları ekleyebilir, kayıtları görüntüleyebilir, silebilir, filtreleyebilir ve analiz sonuçlarını grafikler üzerinden inceleyebilir.
+Uygulama Python ve Streamlit kullanılarak hazırlanmıştır. Veriler SQLite veritabanında depolanır. Kullanıcı gelir ve gider kayıtları ekleyebilir, kayıtları görüntüleyebilir, silebilir, filtreleyebilir ve analiz sonuçlarını grafikler üzerinden inceleyebilir.
 
 ---
 
@@ -61,7 +61,7 @@ Uygulama ile:
 |---|---|
 | Python | Uygulamanın temel programlama dili |
 | Streamlit | Web arayüzünün oluşturulması |
-| SQLite | Verilerin saklanması |
+| SQLite | Verilerin depolanması |
 | Pandas | Verilerin işlenmesi ve tablo yapısı |
 | Plotly | Grafiklerin oluşturulması |
 
@@ -85,10 +85,35 @@ Projeyi çalıştırmak için önce gerekli paketler kurulmalıdır:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 Daha sonra uygulama şu komutla çalıştırılır:
 
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## 📝 Not
+
+Uygulama ilk çalıştırıldığında veritabanı otomatik olarak oluşturulur.
+
+SQLite, Python ile birlikte geldiği için `requirements.txt` dosyasına ayrıca eklenmemiştir.
+
+---
+
+## 📌 Kullanım
+
+1. Uygulama çalıştırılır.
+2. Menüden "İşlem Ekle" sayfasına gidilir.
+3. Gelir veya gider bilgileri girilir.
+4. Kayıtlar "Veri Listesi" sayfasında görüntülenebilir.
+5. "Analiz" sayfasında grafikler ve özet bilgiler incelenebilir.
+6. İstenirse kayıtlar CSV dosyası olarak indirilebilir.
+
+---
+
+## 👤 Geliştirici
+
+Uygar Kutluğ
