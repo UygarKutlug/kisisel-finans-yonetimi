@@ -40,7 +40,9 @@ Uygulama Streamlit kullanılarak geliştirilmiş olup, veriler SQLite veritaban�
 pip install -r requirements.txt
 streamlit run app.py
 
+---
 
 👤 Geliştirici
 
-Uygar Kutluğ
+Uygar Kutlug
+
