@@ -42,10 +42,12 @@ streamlit run app.py
 
 
 
+
+
+
+
 ## 👤 Geliştirici
-
 Uygar Kutlug
-
 
 
 
