@@ -41,7 +41,3 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-
-📝 Not
-
-Uygulama ilk çalıştırıldığında veritabanı otomatik olarak oluşturulur.
