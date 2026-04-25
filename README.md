@@ -116,4 +116,4 @@ SQLite, Python ile birlikte geldiği için `requirements.txt` dosyasına ayrıca
 
 ## 👤 Geliştirici
 
-Uygar Kutluğ
+Uygar Kutlug
