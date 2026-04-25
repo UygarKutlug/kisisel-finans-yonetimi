@@ -68,13 +68,9 @@ Gerekli paketleri yükleyin:
 ```bash
 pip install -r requirements.txt
 
+
 Uygulamayı çalıştırın:
 
 streamlit run app.py
-📝 Not
 
-Uygulama ilk çalıştırıldığında veritabanı otomatik olarak oluşturulur.
 
-👤 Geliştirici
-
-Uygar Kutlug
